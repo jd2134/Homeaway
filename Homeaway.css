@@ -1,0 +1,435 @@
+
+.container {
+	width:100%;
+}
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+
+#firstblock {
+	
+	height:480px;
+	border: 1px solid black;
+	font-family: Muli, Calibri, Arial;
+ 	 background: url(http://i.imgur.com/e18mhcv.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerleft {
+	float:left;
+	margin:15px 0px 0px 20px;
+	height:58px;
+	width:60px;
+}
+
+#headerright li {
+	float:right;
+	margin:20px 15px 0px 0px;
+	list-style-type: none;
+}
+
+.welcome {
+	
+}
+
+#title {
+	margin:145px 0px 0px 0px;
+	text-align:center;
+	font-size:37px;
+	font-weight:100;
+	font-family:Pacifico;
+}
+
+#subtitle {
+	margin:7px 0px 0px 0px;
+	text-align:center;
+	font-size:18px;
+	font-family:Muli;
+}
+
+#search {
+	width:650px;
+	height:25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:35px;
+	padding-left:8px;
+
+}
+
+#moreinfobuttons {
+	margin-top: 15px;
+	text-align:center;
+
+}
+
+#buttonleft, #buttonright {
+	background-color: Translucent;
+	height:30px;
+	width:190px;
+	border-radius: 5%;
+	border:none;
+	font-family:Muli;
+	font-size:16px;
+}
+
+/* SECOND BLOCK */
+
+#populardest {
+	height:680px;
+	background: url(http://i.imgur.com/JJ4jDUA.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+	border: 1px solid black;
+}
+
+#title2, #title3 {
+	padding-top:50px;
+	text-align:center;
+	font-size:37px;
+	font-weight:100;
+	font-family:Pacifico;
+
+}
+
+#Barcelona {
+	background: url(http://i.imgur.com/Gb9zAnQ.jpg) no-repeat center center; 
+  -webkit-background-size: 300px 150px;
+  -moz-background-size: 300px 150px;
+  -o-background-size: 300px 150px;
+  background-size: 300px 150px;
+	position:absolute;
+	top:720px;
+	left: 10%;
+	height:150px;
+	width:300px;
+	border: 3px solid black;
+	border-radius: 5%;
+}
+
+#Berlin {
+	background: url(http://imgur.com/3wtKaAe.jpg) no-repeat center center; 
+  -webkit-background-size: 300px 150px;
+  -moz-background-size: 300px 150px;
+  -o-background-size: 300px 150px;
+  background-size: 300px 150px;
+	position:absolute;
+	top:720px;
+	left: 38%;
+	height:150px;
+	width:300px;
+	border: 3px solid black;
+	border-radius: 5%;
+}
+
+#Prague {
+	background: url(http://i.imgur.com/4KDJKKx.jpg) no-repeat center center; 
+  -webkit-background-size: 300px 150px;
+  -moz-background-size: 300px 150px;
+  -o-background-size: 300px 150px;
+  background-size: 300px 150px;
+	position:absolute;
+	top:720px;
+	right: 10%;
+	height:150px;
+	width:300px;
+	border: 3px solid black;
+	border-radius: 5%;
+}
+
+#Malmo {
+	
+	background: url(http://i.imgur.com/0IyZA20.jpg) no-repeat center center; 
+  -webkit-background-size: 300px 150px;
+  -moz-background-size: 300px 150px;
+  -o-background-size: 300px 150px;
+  background-size: 300px 150px;
+	position:absolute;
+	top:930px;
+	left: 10%;
+	height:150px;
+	width:300px;
+	border: 3px solid black;
+	border-radius: 5%;
+}
+
+#NewYork {
+	background: url(http://i.imgur.com/88xXlaj.jpg) no-repeat center center; 
+  -webkit-background-size: 300px 150px;
+  -moz-background-size: 300px 150px;
+  -o-background-size: 300px 150px;
+  background-size: 300px 150px;
+	position:absolute;
+	top:930px;
+	left: 38%;
+	height:150px;
+	width:300px;
+	border: 3px solid black;
+	border-radius: 5%;
+}
+
+#Istanbul {
+	background: url(http://i.imgur.com/MpM5OQR.jpg) no-repeat center center; 
+  -webkit-background-size: 300px 150px;
+  -moz-background-size: 300px 150px;
+  -o-background-size: 300px 150px;
+  background-size: 300px 150px;
+	position:absolute;
+	top:930px;
+	right: 10%;
+	height:150px;
+	width:300px;
+	border: 3px solid black;
+	border-radius: 5%;
+}
+
+
+
+.populartext {
+	padding-top: 10px;
+	font-family: Pacifico;
+	font-size:22px;
+	text-align: center;
+}
+
+.populardesttext {
+	padding-top: 10px;
+	font-family: Pacifico;
+	font-size:22px;
+	text-align: center;
+	color:white;
+	text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+
+}
+
+
+/* THIRD BLOCK */
+
+#testimonials {
+	
+	height:780px;	
+	background: url(http://i.imgur.com/xG7QMXK.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	border: 1px solid black;
+}
+
+
+
+/* Aimee's Section - circle image & background */
+
+#studenta {
+	position:absolute;
+	width:300px;
+	height:500px;
+	border:3px solid black;
+	left:10%;
+	top:1400px;
+	background-color: white;
+	overflow:hidden;
+}
+
+#studentaimg {
+	position:block;
+	background: url(http://i.imgur.com/MpM5OQR.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:120px;
+	width:auto;
+	opacity:0.5;
+}
+
+.circlea {
+	position:absolute;
+	top:50px;
+	left:33%;
+	border-radius:50%;
+	border: 2px solid black;
+	background: url(http://i.imgur.com/8fuPK3w.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:105px;
+	width:105px;
+}
+
+/* Jerome's Section - Circle image and background */
+
+#studentb {
+	position:absolute;
+	width:300px;
+	height:500px;
+	border:3px solid black;
+	left:38%;
+	top:1400px;
+	background-color: white;
+	overflow:hidden;
+
+}
+
+
+
+#studentbimg {
+	position:block;
+	background: url(http://i.imgur.com/Gb9zAnQ.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height:120px;
+	width:auto;
+	opacity:0.5;
+}
+
+.circleb {
+	position:absolute;
+	top:50px;
+	left:33%;
+	border-radius:50%;
+	border: 2px solid black;
+	background: url(http://i.imgur.com/gvtZkTe.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:105px;
+	width:105px;
+}
+
+
+/* Xavier's Section - Circle image and background */
+
+#studentc {
+	position:absolute;
+	width:300px;
+	height:500px;
+	border:3px solid black;
+	left:66%;
+	top:1400px;
+	background-color: white;
+	overflow:hidden;
+}
+
+#studentcimg {
+	position:block;
+	background: url(http://i.imgur.com/88xXlaj.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:120px;
+	width:auto;
+	opacity:0.5;
+}
+
+.circlec {
+	position:absolute;
+	top:50px;
+	left:33%;
+	border-radius:50%;
+	border: 2px solid black;
+	background: url(http://i.imgur.com/oz5L0Gt.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:105px;
+	width:105px;
+}
+
+.testname {
+	position: inline-block;
+	padding-top:30px;
+	text-align:center;
+	font-family: Pacifico;
+	font-size:22px;
+
+}
+
+.testbody {
+	position: block;
+	padding:7px 12px 4px 12px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+
+}
+
+
+/* Footer */
+
+#footer {
+	
+	position: absolute;
+	height:350px;
+	width:100%;
+	background-color: #2b2d2e;
+	opacity: 0.7;	
+	background-repeat: no-repeat;
+	bottom 0;
+}
+
+#footerleft {
+	position: absolute;
+	left:10%;
+	top:10%;
+	width:20%;
+	
+
+	
+}
+
+.footertext {
+	font-family: Ubuntu, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:white;
+	list-style-type: none;
+	line-height: 140%;
+	text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+
+.footerheader {
+
+	font-family: Ubuntu, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:white;
+	list-style-type: none;
+	text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+	
+}
+
+#footerlinks {
+	position:relative;
+	left:1%;
+}
+
+
+
+
+
+
+}
+
+
+
+
